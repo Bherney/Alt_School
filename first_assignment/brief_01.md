@@ -1,22 +1,26 @@
-# October 2026
+# September 2026
 
-## GeoDev Lab Africa Application Form
+## Assignment 01 - Web Fundamentals, HTML & JavaScript
 
-The first assignment focuses on the fundamentals of **HTML and semantic web structure**.
+The first assignment focuses on the fundamentals of **HTML and JavaScript**.
 
-For this assignment, I created a simple application website for **GeoDev Lab Africa**, a geospatial learning initiative focused on developing GIS developers and geospatial technology professionals across Africa.
+For Part A, I created a simple application website for **GeoDev Lab Africa**, a geospatial learning initiative focused on developing GIS developers and geospatial technology professionals across Africa.
 
-The assignment required the development of an application form inspired by the structure of an AltSchool application form.
-
-The implementation was intentionally completed **without CSS**, allowing the focus to remain on HTML structure, semantics, forms, navigation, and accessibility.
+For Part B, I worked through five JavaScript problems focused on objects, recursion, closures, and data validation.
 
 ---
 
-## Assignment Objectives
+# Part A - HTML
 
-The objectives of this assignment were to:
+## GeoDev Lab Africa Application Form
 
-* Understand the basic structure of an HTML document.
+The HTML assignment required the development of an application form inspired by the structure of an AltSchool application form.
+
+The implementation was completed **without CSS**, allowing the focus to remain on HTML structure, semantics, forms, navigation, and accessibility.
+
+### Objectives
+
+* Understand the structure of an HTML document.
 * Create multiple HTML pages.
 * Implement navigation between pages.
 * Build a structured application form.
@@ -25,7 +29,6 @@ The objectives of this assignment were to:
 * Work with different HTML input types.
 * Group related form elements using fieldsets.
 * Create meaningful labels for form controls.
-* Create a structured footer.
 * Practise basic Git and GitHub workflows.
 
 ---
@@ -64,8 +67,6 @@ The form is divided into logical sections:
 
 ## HTML Concepts Practised
 
-This assignment provided an opportunity to practise several important HTML concepts.
-
 ### Semantic HTML
 
 The pages use semantic elements such as:
@@ -79,13 +80,9 @@ The pages use semantic elements such as:
 <address>
 ```
 
-These elements provide meaningful structure to the webpage and make the content easier for browsers, assistive technologies, and developers to understand.
+### HTML Forms
 
----
-
-## HTML Forms
-
-The application form makes use of several HTML form elements:
+The application form uses:
 
 ```html
 <form>
@@ -98,9 +95,7 @@ The application form makes use of several HTML form elements:
 <button>
 ```
 
-Different input types were used depending on the information being collected.
-
-Examples include:
+Different input types were also used:
 
 ```html
 <input type="text">
@@ -112,15 +107,9 @@ Examples include:
 <input type="checkbox">
 ```
 
----
+### Accessibility
 
-## Accessibility
-
-Accessibility was considered throughout the assignment.
-
-Form controls are associated with descriptive labels.
-
-For example:
+Accessibility was considered through descriptive labels, associated form controls, logical field grouping, and accessible navigation.
 
 ```html
 <label for="email">Email Address:</label>
@@ -133,27 +122,15 @@ For example:
 >
 ```
 
-The `for` attribute connects the label to the corresponding input through the input's `id`.
-
-Related form controls are also grouped using:
-
-```html
-<fieldset>
-    <legend>Personal Information</legend>
-</fieldset>
-```
-
-The navigation also includes an accessible label:
+Navigation was also labelled using:
 
 ```html
 <nav aria-label="Main navigation">
 ```
 
----
+### Global Navigation
 
-## Global Navigation
-
-Both pages contain the same navigation structure.
+Both pages contain navigation that allows users to move between the homepage and application form.
 
 ```html
 <nav aria-label="Main navigation">
@@ -162,42 +139,75 @@ Both pages contain the same navigation structure.
 </nav>
 ```
 
-This allows users to move between the homepage and application form regardless of which page they are currently viewing.
+---
+
+# Part B - JavaScript
+
+Part B focused on solving five JavaScript problems involving objects, recursion, closures, and validation.
+
+## Problems
+
+### Problem 1 - Deep Equal
+
+Implemented `deepEqual(objA, objB)` to recursively compare two objects and determine whether they contain the same keys and values.
+
+**Concepts:** Objects, recursion, `Object.keys()`, and nested data.
+
+### Problem 2 - Object Diff
+
+Implemented `diffObjects(oldObj, newObj)` to identify added, removed, and changed top-level properties.
+
+**Concepts:** Object iteration, comparison, and object manipulation.
+
+### Problem 3 - Deep Freeze
+
+Implemented `deepFreeze(obj)` to recursively freeze an object and its nested objects.
+
+**Concepts:** Recursion, `Object.freeze()`, and immutable objects.
+
+### Problem 4 - Private Counter Factory
+
+Implemented `createCounter()` using a closure to keep the counter value private while exposing increment, decrement, and a value getter.
+
+**Concepts:** Closures, encapsulation, and getters.
+
+### Problem 5 - Schema Validator
+
+Implemented `validateSchema(obj, schema)` to check object properties against their expected JavaScript types.
+
+**Concepts:** `typeof`, object iteration, validation, and arrays.
 
 ---
 
 ## Technologies Used
 
-For this assignment:
-
 * HTML5
+* JavaScript
 * Git
 * Git Bash
 * GitHub
 * Visual Studio Code
 * Vim
 
-No CSS or JavaScript was used because the assignment specifically required the implementation to be completed without CSS.
+No CSS was used for Part A because the assignment specifically required the implementation to be completed without CSS.
 
+[view solution here](solution.js)
 ---
 
 ## What I Learned
 
-This assignment helped strengthen my understanding of the fundamentals of HTML and how webpages are structured.
+This assignment strengthened my understanding of fundamental HTML and JavaScript concepts, including:
 
-I learned how to:
+* Semantic HTML
+* HTML forms
+* Accessibility
+* Page navigation
+* JavaScript objects
+* Recursion
+* Closures
+* Getters
+* Object manipulation
+* Data validation
+* Git and GitHub workflows
 
-* Create an HTML document from scratch.
-* Organise a project using multiple files.
-* Connect pages using relative links.
-* Build structured HTML forms.
-* Use different input types.
-* Create accessible form controls.
-* Use semantic HTML.
-* Group related form elements.
-* Use Git Bash to create and manage files.
-* Commit and push code to GitHub.
-
-More importantly, it reinforced the idea that **good software development starts with understanding the fundamentals**.
-
-Before building complex applications, APIs, GIS platforms, or AI-powered systems, I need to be comfortable with the underlying technologies that make those systems possible.
+These fundamentals provide the foundation for the more advanced software engineering concepts I will encounter throughout the programme.
