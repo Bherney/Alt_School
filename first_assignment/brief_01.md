@@ -34,7 +34,7 @@ The objectives of this assignment were to:
 
 ### `index.html`
 
-The [index.html](/index.html) file serves as the homepage for the GeoDev Lab Africa application website.
+The [index.html](first_assignment/index.html) file serves as the homepage for the GeoDev Lab Africa application website.
 
 It contains:
 
@@ -48,7 +48,7 @@ It contains:
 
 ### `form.html`
 
-The [form.html](/form.html) file contains the GeoDev Lab Africa application form.
+The [form.html](first_assignment/form.html) file contains the GeoDev Lab Africa application form.
 
 The form is divided into logical sections:
 
