@@ -1,6 +1,6 @@
 # October 2026
 
-## Assignment 01 — GeoDev Lab Africa Application Form
+## GeoDev Lab Africa Application Form
 
 The first assignment focuses on the fundamentals of **HTML and semantic web structure**.
 
