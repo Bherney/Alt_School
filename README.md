@@ -74,6 +74,7 @@ AI-Full-Stack-Software-Engineering/
 │   ├── First_Assignment/
 │   │   ├── index.html
 │   │   ├── form.html
+|   |   ├── solution.js
 │   │   └── brief_01.md
 │
 ├── October-2026/
