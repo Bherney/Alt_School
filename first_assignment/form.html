@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeoDev Lab Africa | Application Form</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>GeoDev Lab Africa</h1>
+
+        <nav aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="form.html" aria-current="page">Application Form</a>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h2>GeoDev Lab Africa Application Form</h2>
+
+            <p>
+                Thank you for your interest in GeoDev Lab Africa.
+                Please complete the form below with accurate information.
+            </p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <p>
+                        <label for="first-name">First Name:</label>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first_name"
+                            autocomplete="given-name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="last-name">Last Name:</label>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last_name"
+                            autocomplete="family-name"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="email">Email Address:</label>
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            autocomplete="email"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="phone">Phone Number:</label>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            autocomplete="tel"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="dob">Date of Birth:</label>
+                        <input
+                            type="date"
+                            id="dob"
+                            name="date_of_birth"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="gender">Gender:</label>
+
+                        <select id="gender" name="gender">
+                            <option value="">Select an option</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                            <option value="prefer-not-to-say">
+                                Prefer not to say
+                            </option>
+                        </select>
+                    </p>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Location Information</legend>
+
+                    <p>
+                        <label for="country">Country:</label>
+
+                        <select id="country" name="country" required>
+                            <option value="">
+                                Select your country
+                            </option>
+
+                            <option value="nigeria">Nigeria</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="south-africa">
+                                South Africa
+                            </option>
+                            <option value="uganda">Uganda</option>
+                            <option value="rwanda">Rwanda</option>
+                            <option value="tanzania">Tanzania</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="state">State/Province:</label>
+
+                        <input
+                            type="text"
+                            id="state"
+                            name="state"
+                            autocomplete="address-level1"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="city">City:</label>
+
+                        <input
+                            type="text"
+                            id="city"
+                            name="city"
+                            autocomplete="address-level2"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="address">Address:</label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="address"
+                            name="address"
+                            rows="4"
+                            cols="50"
+                            autocomplete="street-address"
+                        ></textarea>
+                    </p>
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Educational Background</legend>
+
+                    <p>
+                        <label for="education">
+                            Highest Educational Qualification:
+                        </label>
+
+                        <select id="education" name="education" required>
+                            <option value="">
+                                Select an option
+                            </option>
+
+                            <option value="secondary">
+                                Secondary School
+                            </option>
+
+                            <option value="ond">
+                                OND
+                            </option>
+
+                            <option value="hnd">
+                                HND
+                            </option>
+
+                            <option value="bachelors">
+                                Bachelor's Degree
+                            </option>
+
+                            <option value="masters">
+                                Master's Degree
+                            </option>
+
+                            <option value="phd">
+                                PhD
+                            </option>
+
+                            <option value="other">
+                                Other
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="institution">
+                            Name of Institution:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="institution"
+                            name="institution"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="field">
+                            Field of Study:
+                        </label>
+
+                        <input
+                            type="text"
+                            id="field"
+                            name="field_of_study"
+                        >
+                    </p>
+
+                    <p>
+                        <label for="graduation-year">
+                            Graduation Year:
+                        </label>
+
+                        <input
+                            type="number"
+                            id="graduation-year"
+                            name="graduation_year"
+                            min="1950"
+                            max="2030"
+                        >
+                    </p>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>GeoDev Lab Africa Programme</legend>
+
+                    <p>
+                        <label for="experience">
+                            What is your level of GIS experience?
+                        </label>
+
+                        <select id="experience" name="gis_experience" required>
+                            <option value="">
+                                Select your experience level
+                            </option>
+
+                            <option value="beginner">
+                                Beginner
+                            </option>
+
+                            <option value="intermediate">
+                                Intermediate
+                            </option>
+
+                            <option value="advanced">
+                                Advanced
+                            </option>
+
+                            <option value="professional">
+                                Professional
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="track">
+                            Which area are you most interested in?
+                        </label>
+
+                        <select id="track" name="preferred_track" required>
+                            <option value="">
+                                Select an area
+                            </option>
+
+                            <option value="gis">
+                                GIS
+                            </option>
+
+                            <option value="remote-sensing">
+                                Remote Sensing
+                            </option>
+
+                            <option value="web-mapping">
+                                Web Mapping
+                            </option>
+
+                            <option value="gis-development">
+                                GIS Development
+                            </option>
+
+                            <option value="spatial-data">
+                                Spatial Data Analysis
+                            </option>
+
+                            <option value="python">
+                                Python for Geospatial Applications
+                            </option>
+                        </select>
+                    </p>
+
+                    <p>
+                        <label for="software">
+                            Which GIS software have you used?
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="qgis"
+                            name="software"
+                            value="qgis"
+                        >
+                        <label for="qgis">QGIS</label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="arcgis"
+                            name="software"
+                            value="arcgis"
+                        >
+                        <label for="arcgis">ArcGIS</label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="gee"
+                            name="software"
+                            value="google-earth-engine"
+                        >
+                        <label for="gee">Google Earth Engine</label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="python"
+                            name="software"
+                            value="python"
+                        >
+                        <label for="python">Python</label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="other-software"
+                            name="software"
+                            value="other"
+                        >
+                        <label for="other-software">Other</label>
+                    </p>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Application Questions</legend>
+
+                    <p>
+                        <label for="motivation">
+                            Why do you want to join GeoDev Lab Africa?
+                        </label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="motivation"
+                            name="motivation"
+                            rows="6"
+                            cols="60"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <label for="goals">
+                            What do you hope to achieve from the programme?
+                        </label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="goals"
+                            name="goals"
+                            rows="6"
+                            cols="60"
+                            required
+                        ></textarea>
+                    </p>
+
+                    <p>
+                        <label for="project">
+                            Tell us about a GIS or technology project
+                            you have worked on.
+                        </label>
+                    </p>
+
+                    <p>
+                        <textarea
+                            id="project"
+                            name="project"
+                            rows="6"
+                            cols="60"
+                        ></textarea>
+                    </p>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>How Did You Hear About Us?</legend>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="social-media"
+                            name="source"
+                            value="social-media"
+                        >
+
+                        <label for="social-media">
+                            Social Media
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="friend"
+                            name="source"
+                            value="friend"
+                        >
+
+                        <label for="friend">
+                            Friend or Colleague
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="university"
+                            name="source"
+                            value="university"
+                        >
+
+                        <label for="university">
+                            University
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="radio"
+                            id="other-source"
+                            name="source"
+                            value="other"
+                        >
+
+                        <label for="other-source">
+                            Other
+                        </label>
+                    </p>
+
+                </fieldset>
+
+
+                <fieldset>
+                    <legend>Declaration</legend>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="accurate"
+                            name="accurate"
+                            required
+                        >
+
+                        <label for="accurate">
+                            I confirm that the information provided in
+                            this application is accurate and complete.
+                        </label>
+                    </p>
+
+                    <p>
+                        <input
+                            type="checkbox"
+                            id="communication"
+                            name="communication"
+                        >
+
+                        <label for="communication">
+                            I agree to receive programme-related
+                            communications from GeoDev Lab Africa.
+                        </label>
+                    </p>
+
+                </fieldset>
+
+
+                <p>
+                    <button type="submit">
+                        Submit Application
+                    </button>
+
+                    <button type="reset">
+                        Reset Form
+                    </button>
+                </p>
+
+            </form>
+        </section>
+
+    </main>
+
+    <footer>
+
+        <address>
+            GeoDev Lab Africa<br>
+            Ibadan, Oyo State, Nigeria
+        </address>
+
+        <p>
+            &copy; 2026 GeoDev Lab Africa. All rights reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
