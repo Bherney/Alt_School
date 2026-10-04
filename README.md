@@ -115,20 +115,6 @@ This section will be updated as I progress through the programme.
 
 **GIScientist | Geospatial Researcher | Data Analyst**
 
-### Areas of Interest
-
-* Geographic Information Systems
-* Remote Sensing
-* Geospatial Data Science
-* GeoAI
-* Spatial Data Analysis
-* Software Engineering
-* Web Development
-* Full-Stack Development
-* Geospatial Application Development
-* Spatial Databases
-* Web GIS
-
 ---
 
 ## Repository Status
