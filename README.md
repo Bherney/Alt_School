@@ -69,24 +69,19 @@ AI-Full-Stack-Software-Engineering/
 │
 ├── README.md
 │
-├── October-2026/
+├── September-2026/
 │   │
 │   ├── First_Assignment/
 │   │   ├── index.html
 │   │   ├── form.html
-│   │   └── README.md
-│   │
-│   ├── Assignment-02/
-│   │   └── ...
-│   │
-│   └── ...
+│   │   └── brief_01.md
 │
-├── November-2026/
+├── October-2026/
 │   ├── Assignment-01/
 │   ├── Assignment-02/
 │   └── ...
 │
-├── December-2026/
+├── November-2026/
 │   └── ...
 │
 └── ...
@@ -100,12 +95,12 @@ As the programme progresses, new monthly folders will be added to document each 
 
 This section will be updated as I progress through the programme.
 
-| Month         | Focus                   | Status      |
-| ------------- | ----------------------- | ----------- |
-| September 2026  |  Web Fundamentals, HTML & Javacript | In Progress |
-| October 2026 | TBD                     | Upcoming    |
-| November 2026 | TBD                     | Upcoming    |
-| December 2026  | TBD                     | Upcoming    |
+| Month         | Focus                   | Status      | Brief    |
+| ------------- | ----------------------- | ----------- |----------|
+| September 2026  |  Web Fundamentals, HTML & Javacript | In Progress | [brief_01](first_assignment/brief_01.md) |
+| October 2026 | TBD                     | Upcoming    | Upcoming   |
+| November 2026 | TBD                     | Upcoming    | Upcoming   |
+| December 2026  | TBD                     | Upcoming    | Upcoming   |
 
 ---
 
