@@ -102,10 +102,10 @@ This section will be updated as I progress through the programme.
 
 | Month         | Focus                   | Status      |
 | ------------- | ----------------------- | ----------- |
-| October 2026  | HTML & Web Fundamentals | In Progress |
+| September 2026  | HTML & Web Fundamentals | In Progress |
+| October 2026 | TBD                     | Upcoming    |
 | November 2026 | TBD                     | Upcoming    |
-| December 2026 | TBD                     | Upcoming    |
-| January 2027  | TBD                     | Upcoming    |
+| December 2026  | TBD                     | Upcoming    |
 
 ---
 
