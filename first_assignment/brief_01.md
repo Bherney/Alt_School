@@ -48,7 +48,7 @@ It contains:
 
 ### `form.html`
 
-The [form.html](/form.html) file contains the GeoDev Lab Africa application form.
+The [form.html](form.html) file contains the GeoDev Lab Africa application form.
 
 The form is divided into logical sections:
 
