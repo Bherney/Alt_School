@@ -98,7 +98,7 @@ This section will be updated as I progress through the programme.
 | Month         | Focus                   | Status      | Brief    |
 | ------------- | ----------------------- | ----------- |----------|
 | September 2026  |  Web Fundamentals, HTML & Javacript | Completed | [brief_01](first_assignment/brief_01.md) |
-| October 2026 | CSS                    | Completed    | [brief_02](first_assignment/brief_02.md) | 
+| October 2026 | CSS                    | Completed    | [brief_02](second_assignment/brief_02.md) | 
 | November 2026 | Revision and Exam                    | Ongoing   | N/A  |
 | December 2026  | TBD                     | Upcoming    | Upcoming   |
 
