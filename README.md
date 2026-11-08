@@ -78,8 +78,7 @@ AI-Full-Stack-Software-Engineering/
 │   │   └── brief_01.md
 │
 ├── October-2026/
-│   ├── Assignment-01/
-│   ├── Assignment-02/
+│   ├── CSS
 │   └── ...
 │
 ├── November-2026/
@@ -98,9 +97,9 @@ This section will be updated as I progress through the programme.
 
 | Month         | Focus                   | Status      | Brief    |
 | ------------- | ----------------------- | ----------- |----------|
-| September 2026  |  Web Fundamentals, HTML & Javacript | In Progress | [brief_01](first_assignment/brief_01.md) |
-| October 2026 | TBD                     | Upcoming    | Upcoming   |
-| November 2026 | TBD                     | Upcoming    | Upcoming   |
+| September 2026  |  Web Fundamentals, HTML & Javacript | Completed | [brief_01](first_assignment/brief_01.md) |
+| October 2026 | CSS                    | Completed    | [brief_02](first_assignment/brief_02.md) | 
+| November 2026 | Revision and Exam                    | Ongoing   | N/A  |
 | December 2026  | TBD                     | Upcoming    | Upcoming   |
 
 ---
