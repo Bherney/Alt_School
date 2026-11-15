@@ -60,34 +60,38 @@ This includes learning how to:
 
 ## Repository Structure
 
-This repository is organised chronologically by month.
+This repository is organised by assignment, in the order each one was completed.
 
-Each month contains the assignments and projects completed during that stage of the programme.
+Each assignment folder contains the code for that task and a brief describing the work. The month it was completed is noted beside each folder.
 
 ```text
-AI-Full-Stack-Software-Engineering/
+Alt_School/
 │
 ├── README.md
+├── LICENSE
+├── index.html
+├── form.html
 │
-├── September-2026/
-│   │
-│   ├── First_Assignment/
-│   │   ├── index.html
-│   │   ├── form.html
-|   |   ├── solution.js
-│   │   └── brief_01.md
+├── first_assignment/        # September 2026 – Web Fundamentals, HTML & JavaScript
+│   ├── index.html
+│   ├── form.html
+│   ├── solution.js
+│   └── brief_01.md
 │
-├── October-2026/
-│   ├── CSS
-│   └── ...
+├── second_assignment/       # October 2026 – CSS (Scissor landing page)
+│   ├── index.html
+│   ├── style.css
+│   └── brief_02.md
 │
-├── November-2026/
-│   └── ...
+├── third_assignment/        # November 2026 – Figma to HTML & CSS (Chatter landing page)
+│   ├── index.html
+│   ├── style.css
+│   └── brief_03.md
 │
 └── ...
 ```
 
-As the programme progresses, new monthly folders will be added to document each stage of the learning journey.
+As the programme progresses, new assignment folders will be added to document each stage of the learning journey.
 
 ---
 
@@ -99,7 +103,7 @@ This section will be updated as I progress through the programme.
 | ------------- | ----------------------- | ----------- |----------|
 | September 2026  |  Web Fundamentals, HTML & Javacript | Completed | [brief_01](first_assignment/brief_01.md) |
 | October 2026 | CSS                    | Completed    | [brief_02](second_assignment/brief_02.md) | 
-| November 2026 | Revision and Exam                    | Ongoing   | N/A  |
+| November 2026 | Figma to HTML & CSS (Chatter landing page), Revision and Exam | Ongoing | [brief_03](third_assignment/brief_03.md) |
 | December 2026  | TBD                     | Upcoming    | Upcoming   |
 
 ---
